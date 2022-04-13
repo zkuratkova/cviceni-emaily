@@ -41,7 +41,7 @@ body {
   flex: 1;
 }
 
-.email__sender {
+.email__sender-name {
   font-weight: bold;
   margin-bottom: 0.5rem;
 }
