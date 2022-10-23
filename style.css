@@ -8,7 +8,7 @@ html {
 }
 
 body {
-  color: #888;
+  color: #444;
 }
 
 .container {
@@ -34,7 +34,8 @@ body {
 }
 
 .email__icon--closed {
-  background-image: url('img/email-closed.png');
+  background-image: url('img/email-closed.svg');
+  background-size: contain;
 }
 
 .email__fill {
