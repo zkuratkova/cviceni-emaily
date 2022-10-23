@@ -31,6 +31,14 @@ body {
   width: 48px;
   height: 48px;
   margin-right: 1rem;
+  outline: none;
+  border: none;
+  background-color: white;
+  cursor: pointer;
+}
+
+.email__icon:hover {
+  transform: scale(1.1);
 }
 
 .email__icon--closed {
