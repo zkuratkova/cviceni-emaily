@@ -43,6 +43,7 @@ body {
   outline: none;
   border: none;
   background: transparent;
+  background-size: contain;
   cursor: pointer;
 }
 
@@ -52,7 +53,10 @@ body {
 
 .email__icon--closed {
   background-image: url('img/email-closed.svg');
-  background-size: contain;
+}
+
+.email__icon--opened {
+  background-image: url('img/email-opened.svg');
 }
 
 .email__info {
